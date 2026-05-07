@@ -23,6 +23,29 @@ const Hero = () => {
           transition={{ duration: 0.7 }}
           className="w-full lg:w-[48%] text-center lg:text-left"
         >
+          {/* Mobile Top Circle Image */}
+ <motion.img
+  src="/dd.png"
+  alt="Harsh Kumar"
+  className="
+    block md:hidden   /* 👈 only mobile */
+
+    mx-auto
+    mb-4
+
+    w-28 h-28
+    sm:w-32 sm:h-32
+
+    rounded-full
+    object-cover
+
+    border-4 border-amber-400
+    shadow-[0_0_25px_rgba(245,158,11,0.5)]
+  "
+  initial={{ y: -30, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ duration: 0.6 }}
+/>
           <h3 className="text-xs sm:text-sm text-zinc-400 mb-2">
             I'm Harsh Kumar
           </h3>
