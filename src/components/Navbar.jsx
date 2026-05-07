@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
         <Link to="hero" smooth={true} duration={800} className="cursor-pointer">
           <span className="text-3xl font-serif tracking-tighter text-gray-300">
-            HK
+            Harsh Kumar
           </span>
         </Link>
 
