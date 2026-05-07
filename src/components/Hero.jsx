@@ -24,25 +24,27 @@ const Hero = () => {
           className="w-full lg:w-[48%] text-center lg:text-left"
         >
           {/* Mobile Top Circle Image */}
- <motion.img
+<motion.img
   src="/dd.png"
   alt="Harsh Kumar"
   className="
-    block md:hidden   /* 👈 only mobile */
+    block md:hidden
 
     mx-auto
-    mb-4
+    mb-5
 
-    w-28 h-28
-    sm:w-32 sm:h-32
+    w-36 h-36
+    sm:w-40 sm:h-40   /* 👈 thoda bada */
 
     rounded-full
     object-cover
 
-    border-4 border-amber-400
-    shadow-[0_0_25px_rgba(245,158,11,0.5)]
+    border border-white/20   /* 👈 light white outline */
+    shadow-md                /* 👈 soft light shadow */
+
+    bg-white/5               /* 👈 subtle glass feel */
   "
-  initial={{ y: -30, opacity: 0 }}
+  initial={{ y: -20, opacity: 0 }}
   animate={{ y: 0, opacity: 1 }}
   transition={{ duration: 0.6 }}
 />
@@ -106,6 +108,7 @@ const Hero = () => {
   src="/dd.png"
   alt="Harsh Kumar"
   className="
+   hidden md:block
     absolute 
     right-0 
     bottom-[-60px]   /* 👈 niche push karega */
