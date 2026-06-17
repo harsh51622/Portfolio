@@ -18,18 +18,18 @@ const projects = [
     description: 'Anytime Trips is a travel booking platform where users can explore various trips, view details, apply filters, and book trips easily with secure payment and a personalized dashboard experience.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop',
     tech: ['React.js', 'HTML', 'CSS', 'JavaScript', 'Material UI', 'Python', 'Django', 'SQL'],
-    link: 'https://anytime-trips.vercel.app/',
-    github: 'https://github.com/harsh51622/Anytime_Trips.git'
+    link: 'https://anytime-trips-wefe.vercel.app/  ',
+    github: 'https://github.com/harsh51622/Anytime-Trips.git'
   },
-  {
-    id: 3,
-    title: 'AI Chat Bot',
-    description: 'An intelligent AI chatbot application that allows users to have real-time conversations, providing smart responses with a smooth and interactive user experience.',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800&auto=format&fit=crop',
-    tech: ['React.js', 'HTML', 'CSS', 'JavaScript', 'Material UI', 'Python', 'Django', 'SQL'],
-    link: 'https://your-chatbot-demo.vercel.app',
-    github: '#'
-  }
+ {
+  id: 3,
+  title: 'AI Resume Interview',
+  description: 'An AI-powered interview preparation platform that generates personalized interview questions based on users’ resumes and skills. It helps candidates practice technical and HR interviews through an interactive and responsive interface.',
+  image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop',
+  tech: ['React.js', 'Tailwind CSS', 'JavaScript', 'Python', 'Django', 'Django REST Framework', 'OpenAI API', 'JWT', 'MySQL'],
+  link: 'https://airesumeinterview.vercel.app/',
+  github: 'https://github.com/harsh51622/AI-Resume-Interview-.git'
+}
 ];
 
 const Projects = () => {
