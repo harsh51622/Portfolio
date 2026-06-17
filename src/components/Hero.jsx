@@ -84,7 +84,7 @@ const Hero = () => {
             </Link>
 
             <a
-              href="/HARSH%20KUMAR%202026%20new.pdf"
+              href="/resumenew.pdf"
               className="group flex items-center gap-2 px-5 py-2.5 rounded-full text-xs sm:text-sm text-white 
               border border-white/10 backdrop-blur-md hover:scale-105 hover:border-amber-400 
               hover:shadow-[0_0_20px_rgba(245,158,11,0.3)] transition"
